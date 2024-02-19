@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replicate UI</title>
+  </head>
+  <body>
+    <div>
+      <h1>Replicate UI</h1>
+      <div class="card">
+        <input type="file" id="imageFileInput" accept="image/*"><br><br>
+
+        <label for="imageUrlInput">Image URL:</label>
+        <input type="text" id="imageUrlInput" placeholder="Enter image URL"><br><br>
+
+        <label for="promptInput">Prompt:</label>
+        <input type="text" id="promptInput" placeholder="Enter prompt"><br><br>
+
+        <button id="submitButton" type="button">Submit</button>
+      </div>
+      <p id="qwenOutput" class="read-the-docs">
+        [Output will be displayed here]
+      </p>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
