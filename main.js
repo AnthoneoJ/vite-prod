@@ -1,7 +1,7 @@
 import './style.css'
 
 // Load environment variables
-const portNum = process.env.PORT_NUM || 3001;
+const portNum = process.env.PORT_NUM || 3000;
 
 // Get a reference to the elements
 const imageUploader = document.getElementById("imageFileInput");
