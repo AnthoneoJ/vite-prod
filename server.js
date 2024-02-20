@@ -3,7 +3,7 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 
 const app = express();
-const port = process.env.PORT_NUM || 3001;
+const port = process.env.PORT_NUM || 3000;
 const apiToken = process.env.REPLICATE_API_TOKEN;
 const imgHostKey = process.env.IMAGE_HOST_KEY;
 
